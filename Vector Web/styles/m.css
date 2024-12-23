@@ -1,0 +1,112 @@
+@media (min-width:690px) and (max-width:1030px) {
+    .pic-div {
+        display: none;
+    }    
+}
+@media  screen and (max-width:690px) {
+    .Hehe {
+        display: grid;
+        grid-template-columns: 1fr;
+    }   
+    .r-b {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container1 {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width:691px)and (max-width:805px) {
+    .Hehe {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .r-b {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+      }
+}
+@media  screen and (max-width:1000px) {
+    .ifoc {
+        width: 300px;
+    }
+    .Note {
+        width: 300px;
+    }
+    .pic-div {
+        width: 300px
+    }
+}
+@media screen and (min-width:690px) and (max-width:1036px){
+    .r-b {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.Hehe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.container1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+}
+
+@media screen and (min-width:1034px) and (max-width:1200px) {
+    .r-b {
+        grid-template-columns: 1fr 1fr 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+    .ifoc {
+        display: flex;
+        flex: 1;
+    }
+    .ifd {
+        width: 100%;
+    }
+    .Note {
+        width: 300px;
+    }
+    .Hehe {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }   
+}
+@media  (min-width:1201px) { 
+    .r-b {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .Hehe {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}

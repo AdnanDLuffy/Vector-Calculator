@@ -1,0 +1,51 @@
+.am-b , .fb-b , .G-b ,.vC , .X-b , .wm-b {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(33, 9, 9);
+    font-size: 15px;
+    cursor: pointer;
+    color: white;  
+}
+.am-b , .fb-b ,.G-b{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 5px;
+    background-color: rgb(32, 0, 128);
+}
+.fb-b {
+    background-color: blue;
+}
+.G-b {
+    background-color: rgb(129, 10, 10);
+    
+}
+.vC {
+    background-color: rgb(97, 27, 38);
+}
+.X-b {
+    background-color: rgb(185, 125, 47);
+}
+.wm-b {
+    background-color: rgb(7, 46, 47);
+}
+
+
+.ab-me {
+    height : 90%;
+    filter: contrast(0);
+}
+.f-p   {
+    height: 90%;
+}
+.g-ic {
+    height: 65%;
+}
+a {
+    text-decoration: none;
+    text-decoration: none;
+    
+}
